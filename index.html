@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pai do Burguer & Doçuras da Clara</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pai do Burguer & Doçuras da Clara</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Pai do Burguer & Doçuras da Clara</h1>
+<header>
+  <h1>Pai do Burguer & Doçuras da Clara</h1>
+  <p>Faça seu pedido pelo WhatsApp</p>
+</header>
 
-<p>Seu cardápio digital está sendo criado.</p>
+<nav>
+  <button>🍔 Hambúrgueres</button>
+  <button>🌭 Hot Dog</button>
+  <button>🥟 Pastéis</button>
+  <button>🍟 Porções</button>
+  <button>🥤 Bebidas</button>
+</nav>
 
-<p>Em breve você poderá fazer seu pedido diretamente pelo WhatsApp.</p>
+<main id="produtos">
 
-<a href="https://wa.me/5541984137090">
-    Fazer Pedido
-</a>
+</main>
+
+<div id="carrinho">
+  <h2>🛒 Carrinho</h2>
+
+  <div id="itens"></div>
+
+  <h3>Total: <span id="total">R$ 0,00</span></h3>
+
+  <button id="finalizar">
+    Finalizar Pedido
+  </button>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
